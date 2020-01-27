@@ -1,0 +1,719 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    min-height: 100px;
+    margin-top: -10px;
+}
+
+.header .headeralign {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.header .logo {
+    width: 270px;
+    position: relative;
+}
+
+.header .logo img {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+    border-right: 2px rgb(240, 240, 240) solid;
+}
+
+.header .top {
+    display: flex;
+    flex-direction: row;
+    margin-top: -120px;
+    padding: 10px 0 0 0;
+    border-bottom: 2px rgb(240, 240, 240) solid;
+    width: 85vw;
+    margin-right: -5vw;
+}
+
+.header .top .contrast {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 585px;
+}
+
+.header .button--state-contrast1 {
+    border: 2px rgb(240, 240, 240) solid;
+    margin: -5px 2px 0 5px;
+    padding: 5px;
+    max-height: 17px;
+}
+
+.header .button--state-contrast2 {
+    border: 2px rgb(240, 240, 240) solid;
+    margin: -5px 5px 0 2px;
+    padding: 5px;
+    max-height: 17px;
+}
+
+.header .top .fontsize {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+}
+
+.header .button--state-sizeup {
+    border: 2px rgb(240, 240, 240) solid;
+    margin: -5px 5px 0 2px;
+    padding: 5px;
+    max-height: 17px;
+}
+
+.header .button--state-default {
+    border: 2px rgb(240, 240, 240) solid;
+    margin: -5px 2px 0 2px;
+    padding: 5px;
+    max-height: 17px;
+}
+
+.header .button--state-sizedown {
+    border: 2px rgb(240, 240, 240) solid;
+    margin: -5px 2px 0 5px;
+    padding: 5px;
+    max-height: 17px;
+}
+
+.header .top .download {
+    margin: 0 30px;
+}
+
+.header .top .download a {
+    text-decoration: none;
+}
+
+.header .top .blog {
+    margin: 0 30px;
+}
+
+.header .top .blog a {
+    text-decoration: none;
+}
+
+.header .top .phone {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(20, 166, 91);
+    padding: 10px;
+    color: white;
+    margin: -10px 30px 0 30px;
+}
+
+.header .top .phone i {
+    color: white;
+}
+
+.header .bottom {
+    margin: 25px auto 0 auto;
+}
+
+.header .bottom .links a {
+    margin: 0 70px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.homehead {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 62, 120);
+    min-height: 75px;
+    width: 100vw;
+    margin-left: -8px;
+    margin-top: -4px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.homehead .dropdown {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.homehead .dropdown a {
+    color: white;
+    text-decoration: none;
+}
+
+.homehead .hhbuttons {
+    margin-left: 50vw;
+    margin-top: 25px;
+}
+
+.homehead .hhbuttons a:first-child {
+    border-bottom: 5px solid white;
+    padding-bottom: 15px;
+}
+
+.homehead .hhbuttons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+.homehead .hhbuttons a:hover {
+    border-bottom: 5px solid white;
+    padding-bottom: 15px;
+}
+
+.hero {
+    min-height: 710px;
+}
+
+.hero .image {
+    position: relative;
+    z-index: 0;
+}
+
+.hero .image img {
+    width: 100vw;
+    height: auto;
+    margin-left: -8px;
+}
+
+.hero .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 25vw;
+    height: 22vw;
+    margin-top: -31vw;
+    position: relative;
+    z-index: 1;
+    margin-left: 150px;
+}
+
+.hero .content .head {
+    width: 80%;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 0 20px 10%;
+    padding-top: 30px;
+}
+
+.hero .content .body {
+    width: 78%;
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(1, 126, 219);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hero .button--state-hero {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.specs {
+    min-height: 80vh;
+}
+
+.specs .specbuttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 14vw;
+    margin-top: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.specs .specbuttons .b1 {
+    width: 18vw;
+    text-align: center;
+    border: 1px rgb(0, 62, 120) solid; 
+    border-radius: 5px 0 0 5px;
+    padding: 12px 0;
+    background-color: rgb(0, 62, 120);
+    color: white;
+    cursor: pointer;
+}
+
+.specs .specbuttons .b2 {
+    width: 18vw;
+    text-align: center;
+    border: 1px rgb(0, 62, 120) solid; 
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.specs .specbuttons .b3 {
+    width: 18vw;
+    text-align: center;
+    border: 1px rgb(0, 62, 120) solid; 
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.specs .specbuttons .b4 {
+    width: 18vw;
+    text-align: center;
+    border: 1px rgb(0, 62, 120) solid; 
+    border-radius: 0 5px 5px 0;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.specs .specpages {
+
+}
+
+.specs .specpages--state-dimensions {
+    display: flex;
+    flex-direction: row;
+}
+
+.specs .specpages--state-dimensions .dimtable {
+    margin-left: 14vw;
+    margin-right: 50px;
+}
+
+.specs .specpages--state-dimensions .dimtable table {
+    border-collapse: collapse;
+}
+
+.specs .specpages--state-dimensions .dimtable table tr {
+    text-align: left;
+}
+
+.specs .specpages--state-dimensions .dimtable table tr th {
+    padding: 25px 15px 25px 10px;
+    width: 200px;
+}
+
+.specs .specpages--state-dimensions .dimtable table tr td {
+    padding: 25px 15px 25px 10px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.specs .specpages--state-dimensions .dimtable table tr td:first-child {
+    background-color: rgb(229, 232, 232);
+    border-right: none;
+}
+
+.specs .specpages--state-dimensions .dimtable table tr td:nth-child(2) {
+    border-left: none;
+}
+
+.specs .specpages--state-dimensions .image {
+    width: 36vw;
+    margin-top: 30px;
+}
+
+.specs .specpages--state-dimensions .image img {
+    width: 100%;
+    height: auto;
+}
+
+.specs .specpages--state-layouts {
+    display: none;
+    margin-top: 100px;
+}
+
+.specs .specpages--state-layouts .t1 {
+    margin-left: 14vw;
+    font-size: 22px;
+}
+
+.specs .specpages--state-layouts .t2 {
+    margin-left: 14vw;
+    font-size: 22px;
+}
+
+.specs .specpages--state-layouts .image1 img {
+    margin-left: 14vw;
+    width: 40vw;
+    height: auto;
+}
+
+.specs .specpages--state-layouts .image2 img {
+    margin-left: 14vw;
+    width: 72vw;
+    height: auto;
+}
+
+.specs .specpages--state-layouts .note {
+    margin-left: 14vw;
+    font-size: 22px;
+}
+
+.specs .specpages--state-colour {
+    display: none;
+}
+
+.specs .specpages--state-colour .images .carcolour img {
+    margin-left: 15vw;
+    width: 70vw;
+}
+
+.specs .specpages--state-colour .selector {
+    display: flex;
+    flex-direction: row;
+    width: 48vw;
+    margin-left: 26vw;
+}
+
+.specs .specpages--state-colour .selector .selbuttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.specs .specpages--state-colour .selector .selbuttons div {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 10px rgb(210, 210, 210);
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.specs .specpages--state-colour .selector .selbuttons .blazblue {
+    background-color: rgb(21, 30, 91);
+    margin-left: 0;
+}
+
+.specs .specpages--state-colour .selector .selbuttons .red {
+    background-color: rgb(186, 30, 30);
+    margin-right: 0;
+}
+
+.specs .specpages--state-colour .selector .selbuttons .silver {
+    background-color: rgb(132, 134, 137);
+    margin-left: 0;
+}
+
+.specs .specpages--state-colour .selector .selbuttons .metalicious {
+    background-color: rgb(118, 119, 108);
+}
+
+.specs .specpages--state-colour .selector .selbuttons .solar {
+    background-color: rgb(158, 146, 73);
+}
+
+.specs .specpages--state-colour .selector .selbuttons .deepblue {
+    background-color: rgb(28, 41, 109);
+}
+
+.specs .specpages--state-colour .selector .selbuttons .black {
+    background-color: black;
+}
+
+.specs .specpages--state-colour .selector .selbuttons .guard {
+    background-color: rgb(78, 84, 79);
+}
+
+.specs .specpages--state-colour .selector .selbuttons .magnetic {
+    background-color: rgb(92, 90, 87);
+}
+
+.specs .specpages--state-colour .selector .non-metallic {
+    margin-right: 20px;
+}
+
+.specs .specpages--state-colour .selector .metallic {
+    margin-left: 20px;
+}
+
+.specs .specpages--state-colour .selector .non-metallic .nmname {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.specs .specpages--state-colour .selector .metallic .mname {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.specs .specpages--state-trim {
+    display: none;
+}
+
+.specs .specpages--state-trim .bigint .bigintborder {
+    width: 100%;
+    height: 140px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    margin-top: -110px
+}
+
+.specs .specpages--state-trim .bigint .bigintbborder {
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    position: relative;
+    margin-top: -200px;
+    background-color: white;
+}
+
+.specs .specpages--state-trim .bigint img {
+    width: 72.5vw;
+    height: auto;
+    margin-left: 14vw;
+    position: relative;
+    z-index: 0;
+    margin-top: -110px;
+}
+
+.specs .specpages--state-trim .materials {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    margin-left: 14vw;
+    margin-top: -180px;
+}
+
+.specs .specpages--state-trim .materials .tit {
+    margin-right: 34px;
+}
+
+.specs .specpages--state-trim .materials .tit .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.specs .specpages--state-trim .materials .tit .content .text .head {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.specs .specpages--state-trim .materials .tit img {
+    width: 23vw;
+    height: auto;
+}
+
+.specs .specpages--state-trim .materials .zet {
+    margin-right: 34px;
+}
+
+.specs .specpages--state-trim .materials .zet .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.specs .specpages--state-trim .materials .zet .content .text .head {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.specs .specpages--state-trim .materials .zet img {
+    width: 23vw;
+    height: auto;
+}
+
+.specs .specpages--state-trim .materials .tit2 {
+
+}
+
+.specs .specpages--state-trim .materials .tit2 .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.specs .specpages--state-trim .materials .tit2 .content .text .head {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.specs .specpages--state-trim .materials .tit2 img {
+    width: 23vw;
+    height: auto;
+}
+
+.specs .check {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.specs .tit .check {
+    margin-left: 183px;
+}
+
+.specs .zet .check {
+    margin-left: 196px;
+    background-color: rgb(170, 170, 170);
+}
+
+.specs .tit2 .check {
+    margin-left: 183px;
+}
+
+.specs .check i {
+    font-size: 26px;
+    color: white;
+}
+
+.specs .button--state-specs {
+    width: 20vw;
+    margin-left: 40vw;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.slider {
+}
+
+.slider #hero-slider {
+
+}
+
+.slider #hero-slider .slide-image {
+
+}
+
+.slider #hero-slider .slide-image img {
+    width: 100vw;
+    height: auto;
+    margin-left: -8px;
+}
+
+.info {
+    padding-top: 100px;
+}
+
+.info .content {
+    font-size: 20px;
+    width: 68vw;
+    margin-left: 16vw;
+    line-height: 30px;
+}
+
+.info .button--state-info {
+    width: 20vw;
+    margin-left: 40vw;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.infotwo {
+    min-height: 704px;
+}
+
+.infotwo .image {
+    position: relative;
+    z-index: 0;
+}
+
+.infotwo .image img {
+    width: 100vw;
+    height: auto;
+    margin-left: -8px;
+}
+
+.infotwo .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 26vw;
+    height: 24vw;
+    margin-top: -30vw;
+    position: relative;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.infotwo .content .head {
+    width: 80%;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 0 20px 10%;
+    padding-top: 30px;
+}
+
+.infotwo .content .body {
+    width: 78%;
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.infotwo .content .button {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.footer {
+    background-color: rgb(67, 72, 77);
+    width: 100vw;
+    margin-left: -8px;
+    min-height: 400px;
+    margin-bottom: -10px;
+}
+
+.footer .divider {
+    height: 1px;
+}
+
+.footer .info {
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    width: 30vw;
+    margin-left: 10vw;
+}
+
+.footer .links {
+    margin-top: -180px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50vw;
+}
+
+.footer .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.footer .link--state-left {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.footer .link--state-centre {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.footer .link--state-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.footer .copyright {
+    color: rgb(210, 210, 210);
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 125px;
+}
